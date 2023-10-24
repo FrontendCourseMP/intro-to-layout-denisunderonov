@@ -1,2 +1,139 @@
+html:root {
+    --Royal-blue: #5956E9;
+    --gray-paragraph: #6C6C72;
+    --Black: #232233;
+    --White: #FFF;    
+}
 
+html, body{
+    font-size:8px;
+}
 
+body{
+    font-family: Josefin Sans, sans-serif;
+    font-style: normal;
+}
+
+/* josefin-sans-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url('fonts/josefin-sans-v32-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* josefin-sans-200 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('fonts/josefin-sans-v32-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* josefin-sans-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/josefin-sans-v32-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* josefin-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/josefin-sans-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* josefin-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/josefin-sans-v32-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* josefin-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('fonts/josefin-sans-v32-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* josefin-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/josefin-sans-v32-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.purple-paragraph {
+    color: var(--Royal-blue);
+}
+
+.gray-paragraph{
+    color: var(--gray-paragraph);
+}
+
+.white-paragraph {
+    color: var(--White);
+}
+
+.black-paragraph {
+    color: var(--Black);
+}
+   
+.p_16-24 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem; /* 150% */    
+}
+
+.h_20-30 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3.75rem; /* 150% */
+    text-transform: uppercase;
+}
+
+.h_25-37 {
+    font-size: 3.125rem;
+    font-weight: 600;
+    line-height: 4.6875rem; /* 150% */
+    text-transform: uppercase;
+}
+
+.h_31-47 {
+    font-size: 3.90625rem;
+    font-weight: 700;
+    line-height: 5.90625rem; /* 151.2% */
+    text-transform: uppercase;
+    }
+
+.p_20_underline {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    }
+
+.p_12{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.button_p{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

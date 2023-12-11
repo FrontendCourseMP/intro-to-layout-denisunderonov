@@ -5,40 +5,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Design-web</title>
+    <title>Andronov Denis's work</title>
 </head>
 
 <body>
     <header class="main_header">
-    <div class="container">
+        <div class="navbar__container container">
+            <div class="navbar__upnav">
+                <div class="upnav__block--telandmail">
+                    <a href="mailto:info@youremail.com" class="upnav__mail">
+                        <img src="pictures/mail-fill.svg" alt="" class="upnav__mail--img">
+                        <p class="upnav__mail--text p_16-24">info@youremail.com</p>
+                    </a>
+                    <a href="tel:8803216559985" class="upnav__phone">
+                        <img src="pictures/phone-fill.svg" alt="" class="upnav__phone--img">
+                        <p class="upnav__phone--text p_16-24">(480) 555-0103</p>
+                    </a>
+                </div>
+                <ul class="upnav__social-list">
+                    <li class="upnav__social-list--item">
+                        <a href="#">
+                            <img src="pictures/facebook-fill-white.svg" alt="facebook icon"
+                                class="upnav__item--facebook">
+                        </a>
+                    </li>
+                    <li class="upnav__social-list--item">
+                        <a href="">
+                            <img src="pictures/instagram-fill.svg" alt="instagram icon" class="upnav__item--instagram">
+                        </a>
+                    </li>
+                    <li class="upnav__social-list--item">
+                        <a href="">
+                            <img src="pictures/twitter-fill.svg" alt="twitter icon">
+                        </a>
+                    </li>
+                    <li class="upnav__social-list--item">
+                        <a href="">
+                            <img src="pictures/youtube-fill.svg" alt="youtube icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <nav class="header_navbar">
-                <a href="#" class="navbar_menu"><img src="pictures/menu-line.svg" alt="navbar"></a>
-                <a href="#" class="navbar_logo"><img src="pictures/logo.png" alt="LOGO"></a>
-                <a href="#" class="button_p">DOWNLOAD</a>
+                <a href="#" class="navbar_menu">
+                    <img src="pictures/menu-line.svg" alt="navbar">
+                </a>
+                <ul class="header__navbar--left-elements">
+                    <li class="navbar__left-elements--item">
+                        <a href="" class="left-elements__item--home">
+                            home
+                        </a>
+                    </li>
+                    <li class="navbar__left-elements--item">
+                        <a href="" class="left-elements__item--about">
+                            about
+                        </a>
+                    </li>
+                    <li class="navbar__left-elements--item">
+                        <a href="" class="left-elements__item--features">  
+                            features
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="navbar_logo">
+                    <img src="pictures/logo.png" alt="LOGO" class="navbar__menu--logo-picture-1">
+                    <img src="pictures/Logo2.png" alt="LOGO" class="navbar__menu--logo-picture-2">
+                </a>
+                <ul class="header__navbar--right-elements">
+                    <li class="navbar__right-elements--item">
+                        <a href="" class="right-elements__item--screenshot">
+                            screenshot
+                        </a>
+                    </li>
+                    <li class="navbar__right-elements--item">
+                        <a href="" class="right-elements__item--blog">
+                            blog
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="button_p">
+                    DOWNLOAD
+                </a>
             </nav>
-    </div>
+        </div>
     </header>
     <main>
         <section class="app_introduce_section">
             <div class="app_introduce_section__container container">
                 <div class="container__block-border block-border">
                     <div class="block-border__introduce introduce">
-                        <h1 class="introduce__hero-text purple-paragraph h_25-37">A GREAT APP MAKES YOUR LIFE BETTER</h1>
+                        <h1 class="introduce__hero-text purple-paragraph h_25-37">
+                            A GREAT APP MAKES YOUR LIFE BETTER
+                        </h1>
                         <p class="introduce__description--main_text gray-paragraph p_16-24">
                             Amet minim mollit non deserunt
                             ullamco est sit aliqua dolor do amet
                             sint. Velit officia consequat duis
                             enim velit mollit.
                         </p>
+                        <p class="introduce__description--main_text-pc gray-paragraph p_16-24">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
                         <p class="introduce__description--download black-paragraph h_20-30">DOWNLOAD APP NOW</p>
                         <div class="introduce__links links">
-                            <a class="links__link--google-play link--google-play" href="#"><img src="pictures/toppng 1.jpg" alt="google play icon"></a>
-                            <a class="links__link--appstore link--appstore" href="#"><img src="pictures/PngItem_1144050 2.jpg" alt="app store icon"></a>
+                            <a class="links__link--google-play" href="#">
+                                <img src="pictures/toppng 1.jpg" alt="google play icon">
+                            </a>
+                            <a class="links__link--google-play-2" href="#">
+                                <img src="pictures/google-paly-2.png" alt="google play icon">
+                            </a>
+                            <a class="links__link--appstore" href="#">
+                                <img src="pictures/PngItem_1144050 2.jpg" alt="app store icon">
+                            </a>
+                            <a class="links__link--appstore-2" href="#">
+                                <img src="pictures/appstore-2.png" alt="app store icon">
+                            </a>
                         </div>
                     </div>
                     <div class="block-border__purple-border"></div>
                 </div>
                 <img class="app_introduce_section__main-img" src="pictures/mobile-app.png" alt="">
+                <img class="app_introduce_section__main-img-pc" src="pictures/Free Ui View Mobile App Mockup 1-pc.png" alt="">
             </div>
         </section>
 
@@ -50,8 +137,16 @@
                     consectetur adipiscing elit. Viverra
                     nunc ante velit vitae.
                 </p>
+                <p class="about_our_app__text--description-2 gray-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                    vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.
+                </p>
+                <p class="about_our_app__text--description-pc gray-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                </p>
                 <div class="about_our_app-section__flex-wrapper">
                     <img class="about_our_app__img--main" src="pictures/about-our-app.png" alt="">
+                    <img class="about_our_app__img--main-pc" src="pictures/android-smartphone-free-mockup 1.png" alt="">
                     <ul class="about_our_app__list--advantages list">
                         <li class="list__item--creative-design item">
                             <div class="item__tick-description--creative_design tick-description">
@@ -61,6 +156,9 @@
                             <p class="item__short-description short-description gray-paragraph p_16-24">
                                 Lorem ipsum dolor sit amet, conse
                                 ctetur adipiscing elit.
+                            </p>
+                            <p class="item__short-description-pc short-description gray-paragraph p_16-24">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
                             </p>
                         </li>
                         <li class="list__item--easy_to_use item">
@@ -72,6 +170,9 @@
                                 Lorem ipsum dolor sit amet, conse
                                 ctetur adipiscing elit.
                             </p>
+                            <p class="item__short-description-pc short-description gray-paragraph p_16-24">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                            </p>
                         </li>
                         <li class="list__item--best_user_experience item">
                             <div class="item__tick-description--best_user_experience tick-description">
@@ -82,6 +183,9 @@
                                 Lorem ipsum dolor sit amet, conse
                                 ctetur adipiscing elit.
                             </p>
+                            <p class="item__short-description-pc short-description gray-paragraph p_16-24">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -91,10 +195,20 @@
         <section class="app-features_section">
             <div class="app-features_section__container container">
                 <h2 class="app-features_section__hero-text white-paragraph h_25-37">APP FEATURES</h2>
-                <p class="app-features_section__description--main app-features_section__description white-paragraph p_16-24">
+                <p
+                    class="app-features_section__description--main app-features_section__description white-paragraph p_16-24">
                     Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit. Viverra
                     nunc ante velit vitae.
+                </p>
+                <p
+                    class="app-features_section__description--main app-features_section__description-tablet white-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus
+                    vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.
+                </p>
+                <p
+                    class="app-features_section__description--main app-features_section__description-pc white-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
                 </p>
                 <div class="list__item--full_free_chat list__item">
                     <img class="item_img--comment" src="pictures/comment.svg" alt="comment icon">
@@ -108,15 +222,17 @@
                     <div class="app-features_section__unlimited-ui-container">
                         <div class="list__item--unlimited_features list__item">
                             <img class="item_img--surface" src="pictures/surface1.svg" alt="surface icon">
-                            <h3 class="item__hero-par--unlimited_features hero-par white-paragraph h_20-30">UNLIMITER FEATURES</h3>
+                            <h3 class="item__hero-par--unlimited_features hero-par white-paragraph h_20-30">UNLIMITER
+                                FEATURES</h3>
                             <p class="item__features_description--unlimited_features white-paragraph p_16-24">
                                 Lorem ipsum dolor sit amet, conse
                                 ctetur adipiscing elit.
                             </p>
                         </div>
                         <div class="list__item--awesome_ui_design list__item">
-                            <img class="item_img--up-pen" src="pictures/Group_pen.svg" alt="up-pen icon">
-                            <h3 class="item__hero-par--awesome_ui_design hero-par white-paragraph h_20-30">AWSOME UI DESIGN</h3>
+                            <img class="item_img--up-pen" src="pictures/vector.svg" alt="up-pen icon">
+                            <h3 class="item__hero-par--awesome_ui_design hero-par white-paragraph h_20-30">AWESOME UI
+                                DESIGN</h3>
                             <p class="item__features_description--awesome_ui_design white-paragraph p_16-24">
                                 Lorem ipsum dolor sit amet, conse
                                 ctetur adipiscing elit.
@@ -126,10 +242,14 @@
                     <div class="list__item--main-img list__item">
                         <img src="pictures/app-features.png" alt="">
                     </div>
+                    <div class="item__main-img--pc">
+                        <img class="item__main-img--pc" src="pictures/App-pc.png" alt="">
+                    </div>
                     <div class="app-features_section__ios-android-retina--container">
                         <div class="list__item--ios_android_version list__item">
                             <img class="item_img--phone" src="pictures/phone_icon.svg" alt="mobile icon">
-                            <h3 class="item__hero-par--ios_android hero-par white-paragraph h_20-30">IOS & ANDROID VERSION</h3>
+                            <h3 class="item__hero-par--ios_android hero-par white-paragraph h_20-30">IOS & ANDROID
+                                VERSION</h3>
                             <p class="item__features_description--ios_android white-paragraph p_16-24">
                                 Lorem ipsum dolor sit amet, conse
                                 ctetur adipiscing elit.
@@ -137,7 +257,8 @@
                         </div>
                         <div class="list__item--retina_ready_graphics list__item">
                             <img class="item_img--eye" src="pictures/eye-scanner 1.svg" alt="eye icon">
-                            <h3 class="item__hero-par--retina_ready_graphics hero-par white-paragraph h_20-30">RETINA READY GRAPHICS</h3>
+                            <h3 class="item__hero-par--retina_ready_graphics hero-par white-paragraph h_20-30">RETINA
+                                READY GRAPHICS</h3>
                             <p class="item__features_description--retina_ready_graphics white-paragraph p_16-24">
                                 Lorem ipsum dolor sit amet, conse
                                 ctetur adipiscing elit.
@@ -147,7 +268,8 @@
                 </div>
                 <div class="list__item--people_support list__item">
                     <img class="item_img--supporter" src="pictures/male-telemarketer.svg" alt="supporter icon">
-                    <h3 class="item__hero-par--support_people hero-par white-paragraph h_20-30">24/7 SUPPORT BY REAL PEOPLE</h3>
+                    <h3 class="item__hero-par--support_people hero-par white-paragraph h_20-30">24/7 SUPPORT BY REAL
+                        PEOPLE</h3>
                     <p class="item__features_description--support_people white-paragraph p_16-24">
                         Lorem ipsum dolor sit amet, conse
                         ctetur adipiscing elit.
@@ -164,9 +286,14 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
                         tellus vitae, nullam lobortis enim
                     </p>
+                    <p class="download_app_now__paragraph--description-pc gray-paragraph p_16-24">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                    </p>
                     <div class="download_app_now__links">
-                        <a href="#"><img src="pictures/toppng 1.jpg" alt="google play button"></a>
-                        <a href="#"><img src="pictures/PngItem_1144050 2.jpg" alt="app store button"></a>
+                        <a class="download_app_now__links--google-play" href="#"><img class="download_app_now__links--google-play" src="pictures/toppng 1.jpg" alt="google play button"></a>
+                        <a class="download_app_now__links--google-play-2" href="#"><img class="download_app_now__links--google-play-2" src="pictures/google-paly-2.png" alt="google play button"></a>
+                        <a class="download_app_now__links--appstore" href="#"><img class="download_app_now__links--appstore" src="pictures/PngItem_1144050 2.jpg" alt="app store button"></a>
+                        <a href="#" class="download_app_now__links--appstore-2"><img class="download_app_now__links--appstore-2" src="pictures/appstore-2.png" alt="app store button"></a>
                     </div>
                     <ul class="download_app_now__list">
                         <li class="list__item--download item">
@@ -187,35 +314,57 @@
                     </ul>
                 </div>
                 <img class="download_app_now__img" src="pictures/Gravity-Scene-iPhone-12-Mockup 1.png" alt="">
+                <img class="download_app_now__img-pc" src="pictures/Gravity-Scene-iPhone-12-Mockup pc.png" alt="">
             </div>
         </section>
 
         <section class="how_to_use_app_section">
             <div class="how_to_use_app_section__container container">
-                <h2 class="how_to_use_app__paragraph--hero-text white-paragraph h_25-37">HOW TO USE THE APP PERFECTLY</h2>
+                <h2 class="how_to_use_app__paragraph--hero-text white-paragraph h_25-37">HOW TO USE THE APP PERFECTLY
+                </h2>
                 <p class="how_to_use_app__paragraph--description white-paragraph p_16-24">
                     Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit. Viverra
                     nunc ante velit vitae.
                 </p>
-                <video controls preload="none" poster="pictures/videoimage.jpg" src="video/video.mp4" type="video/mp4" alt=""></video>
+                <p class="how_to_use_app__paragraph--description-tablet white-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.
+                </p>
+                <p class="how_to_use_app__paragraph--description-pc white-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                </p>
+                <video controls preload="none" poster="pictures/videoimage.jpg" src="video/video.mp4" type="video/mp4"
+                    alt=""></video>
             </div>
         </section>
 
         <section class="our_happy_customers_section bg_our-hap-cust">
             <div class="our_happy_customers_section__container container">
                 <h2 class="our_happy_customers__paragraph--hero-text white-paragraph h_25-37">OUR HAPPY CUSTOMERS</h2>
-                <p class="our_happy_customers__paragraph--description-text white-paragraph p_16-24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.</p>
+                <p class="our_happy_customers__paragraph--description-text white-paragraph p_16-24">
+                    Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+                </p>
+                <p class="our_happy_customers__paragraph--description-text-tablet white-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.
+                </p>
+                <p class="our_happy_customers__paragraph--description-text-pc white-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                </p>
                 <div class="our_happy_customers__sliders">
                     <div class="slider fifth main">
-                        <img src="pictures/Profile-Image.png" alt="profile image">
+                        <img class="our_happy_customers__slider--img" src="pictures/Profile-Image.png" alt="profile image">
+                        <img class="our_happy_customers__slider--img-pc" src="pictures/Profile Image-pc.png" alt="profile image">
                         <h3 class="black-paragraph h_25-37">ANN LUBIN</h3>
                         <span class="p_16-24">CO-FOUNDER</span>
-                        <p class="gray-paragraph p_16-24">
+                        <p class="our_happy_customers__slider--text gray-paragraph p_16-24">
                             Lorem ipsum dolor sit amet,
                             consectetur adipiscing elit. Viverra
                             nunc ante velit vitae. Est tellus
                             vitae, nullam lobortis enim.
+                        </p>
+                        <p class="our_happy_customers__slider--text-pc gray-paragraph p_16-24">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
                         </p>
                     </div>
                     <div class="slider first">
@@ -227,6 +376,7 @@
                             consectetur adipiscing elit. Viverra
                             nunc ante velit vitae. Est tellus
                             vitae, nullam lobortis enim.
+                        </p>
                     </div>
                     <div class="slider second">
                         <img src="pictures/Profile-Image.png" alt="profile image">
@@ -237,6 +387,7 @@
                             consectetur adipiscing elit. Viverra
                             nunc ante velit vitae. Est tellus
                             vitae, nullam lobortis enim.
+                        </p>
                     </div>
                     <div class="slider third">
                         <img src="pictures/Profile-Image.png" alt="profile image">
@@ -247,6 +398,7 @@
                             consectetur adipiscing elit. Viverra
                             nunc ante velit vitae. Est tellus
                             vitae, nullam lobortis enim.
+                        </p>
                     </div>
                     <div class="slider fourth">
                         <img src="pictures/Profile-Image.png" alt="profile image">
@@ -257,6 +409,7 @@
                             consectetur adipiscing elit. Viverra
                             nunc ante velit vitae. Est tellus
                             vitae, nullam lobortis enim.
+                        </p>
                     </div>
                 </div>
                 <div class="our_happy_customers__slider_buttons">
@@ -271,10 +424,17 @@
 
         <section class="our_recent_blog_section">
             <div class="our_recent_blog_section__container container">
-                <h2 class="black-paragraph h_25-37">OUR RECENT BLOG</h2>
+                <h2 class="our_recent_blog_section__main-text black-paragraph h_25-37">OUR RECENT BLOG</h2>
                 <p class="our_recent_blog__paragraph--description-text gray-paragraph p_16-24">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
                     tellus vitae.
+                </p>
+                <p class="our_recent_blog__paragraph--description-text-tablet gray-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus.
+                </p>
+                <p class="our_recent_blog__paragraph--description-text-pc gray-paragraph p_16-24">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+                </p>
                 <ul class="our_recent_blog__list">
                     <li class="list__item--the_snap_pixel item">
                         <img src="pictures/Image.jpg" alt="">
@@ -284,7 +444,10 @@
                             Est tellus
                             vitae, nullam lobortis enim.
                         </p>
-                        <a href="#"  class="purple-paragraph p_20_underline p_20_underline">READ MORE<a>
+                        <a href="#" class="purple-paragraph p_20_underline p_20_underline">
+                            READ MORE
+
+                        </a>
                     </li>
                     <li class="list__item--global_partner item">
                         <img src="pictures/Image (1).jpg" alt="">
@@ -294,17 +457,28 @@
                             Est tellus
                             vitae, nullam lobortis enim.
                         </p>
-                        <a href="#"  class="purple-paragraph p_20_underline">READ MORE<a>
+                        <a href="#" class="purple-paragraph p_20_underline">
+                            READ MORE
+                        </a>
                     </li>
                     <li class="list__item--2021 item">
-                        <img src="pictures/Image (2).jpg" alt="">
-                        <h3 class="black-paragraph h_20-30">2021: AN OPPORTUNITY FORSNAPCHATTERS TO START FRESH</h3>
+                        <img src="pictures/Image (1).jpg" alt="">
+                        <h3 class="item__2021--main-text black-paragraph h_20-30">
+                            2021: AN OPPORTUNITY FORSNAPCHATTERS TO START FRESH
+                        </h3>
+                        <h3 class="item__2021--main-text-2 black-paragraph h_20-30">
+                            2021: An oppor-
+                            tunity forSna
+                            pchatters to start fresh
+                        </h3>
                         <p class="gray-paragraph p_16-24">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
                             Est tellus
                             vitae, nullam lobortis enim.
                         </p>
-                        <a href="#" class="purple-paragraph p_20_underline">READ MORE<a>
+                        <a href="#" class="purple-paragraph p_20_underline">
+                            READ MORE
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -313,17 +487,20 @@
         <section class="information_section">
             <div class="information_section__container container">
                 <div class="information_section__mail_and_number">
-                    <div class="mail_and_number__mail mail_and_number">
-                        <a href="mailto:info@youremail.com"><img src="pictures/Ellipse 34.svg" alt="icon mail">
-                            <p class="black-paragraph h_20-30">info@youremail.com</p>
-                        </a>
-                    </div>
+                    <a class="mail_and_number" href="mailto:info@youremail.com">
+                        <img src="pictures/Ellipse 34.svg" alt="icon mail">
+                        <p class="mail_and_number__mail black-paragraph h_20-30">
+                            info@youremail.com
+                        </p>
+                    </a>
                     <div class="information_section__border"></div>
-                    <div class="mail_and_number__number mail_and_number">
-                        <a href="tel:+8803216559985"><img src="pictures/Call.svg" alt="icon phone"> <p class="black-paragraph h_20-30">+880 321
-                                655 9985</p>
-                        </a>
-                    </div>
+                    <a class="mail_and_number" href="tel:+8803216559985">
+                        <img src="pictures/Call.svg" alt="icon phone">
+                        <p class="black-paragraph h_20-30">
+                            +880 321
+                            655 9985
+                        </p>
+                    </a>
                 </div>
             </div>
         </section>
@@ -339,6 +516,12 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
                         tellus vitae,
                         nullam lobortis enim.
+                    </p>
+                    <p class="footer-description__paragraph--description-text-pc white-paragraph p_16-24">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                    </p>
+                    <p class="footer-description__paragraph--description-text-tablet white-paragraph p_16-24">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
                     </p>
                     <ul class="footer-description__social-list">
                         <li class="social-list__item--facebook item">
@@ -362,8 +545,10 @@
                             <a href="#" class="white-paragraph p_16-24">About</a>
                         </li>
                         <li class="links-list__item--features item">
-                            <a href="#" class="white-paragraph p_16-24">Features</a></li>
-                        <li class="links-list__item--screenshot item"><a href="#" class="white-paragraph p_16-24">Screenshot</a>
+                            <a href="#" class="white-paragraph p_16-24">Features</a>
+                        </li>
+                        <li class="links-list__item--screenshot item"><a href="#"
+                                class="white-paragraph p_16-24">Screenshot</a>
                         </li>
                         <li class="links-list__item--blog item">
                             <a href="#" class="white-paragraph p_16-24">Blog</a>
@@ -372,15 +557,17 @@
                 </div>
                 <div class="main_footer__footer_news">
                     <h2 class="footer_news__paragraph--hero-text white-paragraph h_25-37">NEWS LETTER</h2>
-                    <p class="footer_news__paragraph--description-text white-paragraph p_16-24">Subscribe our newsletter to get our latest update & news</p>
+                    <p class="footer_news__paragraph--description-text white-paragraph p_16-24">Subscribe our newsletter
+                        to get our latest update & news</p>
                     <form class="footer_news__form" action="" method="get">
                         <span class="form__text">enter your email</span>
                         <input class="form__input--email" type="email" placeholder="Your email adress">
-                        
-                        <button class="form__input--email-button" type="submit"><img src="pictures/send-plane-2-fill.svg" alt=""></button>
+                        <button class="form__input--email-button" type="submit"><img
+                                src="pictures/send-plane-2-fill.svg" alt=""></button>
                     </form>
                 </div>
             </div>
+            <div class="main_footer__border-copyright"></div>
             <div class="main_footer__copyright">
                 <p class="copyright__icon--copy white-paragraph p_12">
                     &copy;

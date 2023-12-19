@@ -24,6 +24,11 @@
             margin-bottom: 100px;
         }
 
+        main{
+            padding-top: 120px;
+            margin-bottom: 120px;
+        }
+
         .picture {
             display: grid;
             width: 1000px;
@@ -96,18 +101,20 @@
 
         }
 
-
+        .article a {
+            font-size: large;
+        }
 
         .graphics {
             margin-top: 50px;
             width: 1000px;
             display: grid;
-            grid-template-columns: 250px 250px 250px 250px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
             grid-template-rows: 333px 333px 333px;
             grid-template-areas: 
-            "board s1 s1 s1"
-            "board s2 s3 s4"
-            "board s5 s5 s6"
+            "board s1 s1 s1 s1 s1 s1" 
+            "board s2 s2 s3 s3 s4 s4"
+            "board s5 s5 s5 s6 s6 s6"
             ;
             gap: 10px;
         }
@@ -119,7 +126,9 @@
 
         .article {
             grid-area: board;
-            background-color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
 
         .g1 {
@@ -144,6 +153,72 @@
 
         .g6 {
             grid-area: s6;
+        }
+
+        .ram-div {
+            display: grid;
+            width: 1000px;
+            justify-content: center;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            grid-template-areas: 
+            "r1 r2 r3"
+            "r4 r5 r6"
+            "r7 r8 r9"
+            ;
+            gap: 10px;
+        }
+
+        .ram-div div {
+            background-color: black;
+            height: 100px;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .block1{
+            grid-area: r1;
+            background-color: black;
+        }
+
+        .block2{
+            grid-area: r2;
+            background-color: black;
+        }
+
+        .block3{
+            grid-area: r3;
+        }
+
+        .block4{
+            grid-area: r4;
+        }
+
+        .block5{
+            grid-area: r5;
+        }
+
+        .block6{
+            grid-area: r6;
+        }
+
+        .block7{
+            grid-area: r7;
+        }
+
+        .block8{
+            grid-area: r8;
+        }
+
+        .block9{
+            grid-area: r9;
+        }
+
+        .ram-div div a {
+            color: black;
+            text-decoration: none;
+            font-size: large;
+            background-color: #fff;
         }
     </style>
 
@@ -177,7 +252,19 @@
         <section>
             <div class="container">
                 <div class="graphics">
-                    <div class="article"></div>
+                    <div class="article">
+                        <a href="">
+                            Cсылка!!!
+                        </a><a href="">
+                            Cсылка!!!
+                        </a><a href="">
+                            Cсылка!!!
+                        </a><a href="">
+                            Cсылка!!!
+                        </a><a href="">
+                            Cсылка!!!
+                        </a>
+                    </div>
                     <div class="g1"><img src="pictures/magicpattern-svg-chart-1702250549678.png" alt=""></div>
                     <div class="g2"><img src="pictures/magicpattern-svg-chart-1702250561071.png" alt=""></div>
                     <div class="g3"><img src="pictures/magicpattern-svg-chart-1702250570748.png" alt=""></div>
@@ -187,9 +274,40 @@
                 </div>
             </div>
         </section>
+
         
-        <section>
-            
+        <section class="ram">
+            <div class="container">
+                <div class="ram-div">
+                    <div class="block1">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block2">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block3">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block4">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block5">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block6">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block7">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block8">
+                        <a href="#">Ссылка</a>
+                    </div>
+                    <div class="block9">
+                        <a href="#">Ссылка</a>
+                    </div>
+                </div>
+            </div>
         </section>
         
     </main>

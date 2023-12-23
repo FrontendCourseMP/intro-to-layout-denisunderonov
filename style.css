@@ -181,6 +181,168 @@ body {
     text-align: center;
 }
 
+@keyframes button-download-hover {
+    to {
+        background-color: var(--White);
+        color: var(--Royal-blue);
+    }
+}
+
+@keyframes button-download-active {
+    from {
+        background-color: var(--White);
+        color: var(--Royal-blue);     
+    }
+    
+    to {
+        background-color: var(--White);
+        color: var(--Royal-blue);
+        font-size: medium;
+    }
+}
+
+@keyframes forbutton-hover {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes forbutton-active {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes telandmail-pc-hover {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes telandmail--active {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes footer-links-pc-hover {
+    to {
+        background-color: var(--White);
+        color: var(--Black);
+        border-radius: 10%;
+    }
+}
+
+@keyframes footer-links-pc-active {
+    from {
+        background-color: var(--White);
+        color: var(--Black);
+        border-radius: 10%;
+    }
+    
+    to {
+        background-color: none;
+        color: var(--White)
+    }
+}
+
+.form__input--email-button:active {
+    transform: scale(0.8);
+    transition-duration: 0.1s;   
+}
+
+.introduce__links a img:hover {
+    animation-name: forbutton-hover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.introduce__links a img:active{
+    animation-name: forbutton-active;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.button_p:hover {
+    animation-name: button-download-hover;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.button_p:active {
+    animation-name: button-download-active;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.download_app_now__links a img:hover {
+    animation-name: forbutton-hover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;    
+}
+
+.download_app_now__links a img:active {
+    animation-name: forbutton-active;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.upnav__block--telandmail a img:hover, .upnav__block--telandmail a p:hover  {
+    animation-name: telandmail-pc-hover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.upnav__block--telandmail a img:active, .upnav__block--telandmail a p:active  {
+    animation-name: telandmail-pc-active;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.upnav__social-list li a img:hover {
+    animation-name: telandmail-pc-hover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;    
+}
+
+.upnav__social-list li a img:active {
+    animation-name: telandmail-pc-active;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.footer-description__social-list li a img:hover {
+    animation-name: telandmail-pc-hover;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;     
+}
+
+.footer-description__social-list li a img:active {
+    animation-name: telandmail-pc-active;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+.footer_links__links-list li a:hover {
+    animation-name: footer-links-pc-hover;
+    animation-duration: 0.2sec;
+    animation-fill-mode: forwards;
+}
+
+.footer_links__links-list li a:active {
+    animation-name: footer-links-pc-active;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
 @media (min-width: 768px) {
     .button_p {
         width: 158px;
@@ -191,6 +353,7 @@ body {
         margin-bottom: 5px;
         margin-right: 5px;
     }
+    
 }
 
 .main_header {
@@ -223,6 +386,10 @@ body {
     margin: 0 auto;
     max-width: 1440px;
     padding: 0 20px;
+}
+
+.navbar__menu--logo-picture-2 {
+    display: none;
 }
 
 @media (min-width:400px) {
@@ -283,9 +450,6 @@ body {
     }
 }
 
-.navbar__menu--logo-picture-2 {
-    display: none;
-}
 
 @media (min-width: 768px) {
 
@@ -318,9 +482,7 @@ body {
     display: none;
 }
 
-.navbar__menu--logo-picture-2 {
-    display: none;
-}
+
 
 @media (min-width: 1440px) {
     .navbar_menu {
@@ -374,14 +536,30 @@ body {
         margin: 0 auto;
     }
 
-    .navbar__left-elements--item a:hover{
+    .navbar__left-elements--item a:hover {
         text-decoration: underline;
-        color: var(--Royal-blue);
+        color: var(--Royal-blue);   
     }
 
     .navbar__right-elements--item a:hover {
         text-decoration: underline;
         color: var(--Royal-blue);
+    }
+
+    .navbar__left-elements--item a:active {
+        text-decoration: none;
+        transition-property: font-size, color;
+        transition-duration: 0.1s, 0.1s;
+        font-size: medium;
+        color: #000080;   
+    }
+    
+    .navbar__right-elements--item a:active {
+        text-decoration: none;
+        transition-property: font-size, color;
+        transition-duration: 0.1s, 0.1s;
+        font-size: medium;
+        color: #000080;
     }
 }
 

@@ -34,6 +34,45 @@
         label {
             font-size: large;
         }
+
+        .test-logo {
+            background-color: white;
+            border-radius: 10px;
+            transform: rotate(-30deg) scale(1.5) skew(130deg, 200deg);
+        }
+
+        label:focus {
+            border: 2px solid #3498db;
+        }
+
+        input[type="radio"]:checked + label,
+        input[type="checkbox"]:checked + label {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        input[required] {
+            border: 2px solid #e74c3c; 
+        }
+
+        dl, dt, dd {
+            font-size: large;
+        }
+
+        dl dt:nth-child(even),
+        dl dd:nth-child(odd) {
+            color: #3498db; 
+        }
+
+        dl dt:nth-child(odd),
+        dl dd:nth-child(even) {
+            color: #e74c3c;
+        }
+
+        input[type="checkbox"]:checked + label,
+        input[type="radio"]:checked + label {
+            text-decoration: line-through;
+        }
     </style>
 </head>
 
@@ -121,6 +160,33 @@
     <main>
         
         <div class="container">
+
+            <form  action="//httpbin.org/post" method="POST">
+                <fieldset class="fieldset-three">
+                    <legend>Определения</legend>
+                    <dl>
+                        <dt>Буквица:</dt>
+                        <dd>::first-letter</dd>
+                
+                        <dt>🛈 Псевдоэлемент:</dt>
+                        <dd>::before</dd>
+                        <dd>::after</dd>
+                
+                        <dt>🛈 Псевдокласс:</dt>
+                        <dd>:hover</dd>
+                        <dd>:active</dd>
+                    </dl>
+                
+                    <label>
+                        <input type="checkbox" checked> Использованные псевдоэлементы
+                    </label>
+                    <label>
+                        <input type="checkbox" checked> Использованные псевдоклассы
+                    </label>
+                </fieldset>
+            </form>
+
+
             <form action="//httpbin.org/post" method="POST">
 
                     <fieldset class="field-one">
@@ -191,7 +257,7 @@
         <div class="main_footer__container container">
             <div class="main_footer__flex-wrapper">
                 <div class="main_footer__footer-description">
-                    <h2 class="footer-description__paragraph--hero-text white-paragraph h_31-47">LOGO</h2>
+                    <img class="test-logo" src="pictures/Logo2.png" alt="">
                     <p class="footer-description__paragraph--description-text white-paragraph p_16-24">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est
                         tellus vitae,

@@ -356,6 +356,21 @@ body {
     
 }
 
+.skip-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px 15px;
+    color: #18191c;
+    background: #10F3AF;
+    transform: translateY(-100%);
+}
+
+.skip-link:focus {
+    transform: translateY(20%);
+}
+
 .main_header {
     padding-top: 40px;
     padding-bottom: 120px;
@@ -2551,10 +2566,6 @@ video {
     padding-right: 0;
 }
 
-.main_footer__footer_news {
-    border-bottom: 1px solid var(--White);
-}
-
 @media (min-width: 768px) {
     .main_footer__footer-description {
         width: 213px;
@@ -2648,6 +2659,11 @@ video {
 }
 
 @media (min-width: 1440px) {
+
+    .mail_and_number__mail {
+        word-break: keep-all;
+    }
+
     .main_footer__footer-description {
         margin-right: 66px;
         width: 334px;
